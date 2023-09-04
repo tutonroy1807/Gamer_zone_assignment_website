@@ -359,6 +359,45 @@ nav>ul>li>a {
     /* 166.667% */
 }
 
+/* multiple games of this section */
+
+.games_part {
+    margin-top: 80px;
+    margin-bottom: 180px;
+}
+
+.multiple_games_section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 250px;
+}
+
+.card_image {
+    display: flex;
+    gap: 10px;
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.small_games_section {
+    display: flex;
+    margin: 30px 380px;
+}
+
+.small_card {
+    display: flex;
+    gap: 10px;
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF
+}
+
+
 /* footer section */
 
 .footer_section {
