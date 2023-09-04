@@ -104,21 +104,25 @@ nav>ul>li>a {
 
 .banner {
     display: flex;
-    justify-content: center;
+    /* align-items: center; */
+
+
 }
 
 .banner_design {
     margin-left: 0px;
     background-image: url('../images/Group\ 14.png');
-    fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+    /* fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%); */
     /* margin-left: 0px; */
-    margin-right: 280px;
+    margin-right: 20px;
 
 }
 
 .banner_pad {
+    /* margin-left: 240px; */
+
     /* margin-left: 0px; */
-    padding: 148px 250px;
+    padding: 148px 240px;
 }
 
 .banner_title {
@@ -205,8 +209,9 @@ nav>ul>li>a {
 }
 
 .banner_image {
-    width: 100%;
-    margin-right: 280px;
+    width: 50%;
+    margin-right: 600px;
+
 }
 
 /* We are gamer part section */
@@ -291,6 +296,67 @@ nav>ul>li>a {
     margin: 48px 240px;
     gap: 11px;
     /* justify-content: space-between; */
+}
+
+/* Play Instantly and No Downloads */
+
+.play_instantly {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .play_img_decoration {
+    position: relative;
+    bottom: 100px;
+} */
+
+#img_slide {
+    margin-left: 260px;
+    width: 50%;
+    margin-top: 150px;
+    margin-right: 240px;
+}
+
+.img_design {
+    width: 50%;
+    margin: 0px;
+    position: relative;
+    bottom: 150px;
+    margin-left: 80px;
+}
+
+.play_text_decoration {
+    margin-left: 350px;
+    margin-bottom: 220px;
+}
+
+.play_title {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+}
+
+#play_span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play_descript {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
 
 
