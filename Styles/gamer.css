@@ -479,32 +479,11 @@ nav>ul>li>a {
 }
 
 
-/* Media Devices Responsive
+/* media devices */
 
-/* Mobile devices */
-
-/* @media screen and (max-width:576px) {
-
-    nav {
+/* @media screen and (max-width: 576px) {
+    .footer_title {
         flex-direction: column;
+        margin-right: 300px;
     }
-
-    ul {
-        flex-direction: column;
-        margin-right: 200px;
-        align-items: center;
-
-    }
-
-    .banner {
-        flex-direction: column-reverse;
-
-    }
-
-    .banner_image {
-        width: 25%;
-    }
-
-    .banner_design {}
-
 } */
